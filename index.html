@@ -7,10 +7,109 @@
              <meta name="description" content="This is a website for cool spaceships">
              <meta name="robots" content= "index,follow">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-            <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@300&display=swap" rel="sty    lesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="styles.css">
         </head>
 <body>
-    
+   <header class="main-head">
+       <nav>
+           <h1 id="logo">Cool Spaceships
+            <img id="logo" class="whale" src="/img/WhaleCutOut2.png" alt="">
+           </h1>
+          <input type="checkbox" class="menu-check"> 
+           <ul  class="nav-links" >
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+           </ul>
+           <div class="burger">
+               <span></span>
+               <span></span>
+               <span></span>
+           </div>
+       </nav>
+   </header> 
+   <main>
+       <section class="hero">
+           <div class="hero-introduction flex">
+                <h2>Death Star Services</h2>
+                <p> &emsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi dolores laborum veritatis labore quis qui quo, velit quas ab officiis dicta blanditiis magni ex harum? Vel obcaecati ex voluptatem.</p>
+                    <a id="galleryButton" href="#gallery">Gallery</a>
+           </div>
+           <div class="hero-images">
+                <img class="hero-elena"
+                src="/img/elena-joy.png" 
+                alt="picture of elena joy">
+                <img src="/img/plant1.png" alt="" class="plant1 plant">
+                <img src="/img/plant2.png" alt="" class="plant2 plant">
+           </div>
+       </section>
+       <section class="about" id="about">
+        <div class="about-image">
+          <h5 id = "about-title">MINIMAL</h5>
+          <img src="./img/about-image.png" alt="portrait-picture" />
+        </div>
+        <div class="about-text flex" id="work">
+          <h2>Elena Joy</h2>
+          <div class="about-life">
+            <h3>My Life</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptas, maxime reprehenderit. Assumenda necessitatibus id
+              consectetur asperiores harum dolore nihil fuga?
+            </p>
+          </div>
+          <div class="about-work">
+            <h3>My Work</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptas, maxime reprehenderit. Assumenda necessitatibus id
+              consectetur asperiores harum dolore nihil fuga?
+            </p>
+          </div>
+          <div class="about-contact">
+            <h3>Get in touch</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptas, maxime reprehenderit. Assumenda necessitatibus id
+              consectetur asperiores harum dolore nihil fuga?
+            </p>
+          </div>
+        </div>
+      </section> 
+      <div class="gallery">
+        <header class="gallery-head">
+          <h2>Professional Photography</h2>
+          <p>Professional photo websit that I made</p>
+        </header>
+        <img src="/img/gallery-1.jpg" alt="man in suite" class="gallery1"/>
+        <img src="/img/gallery-2.jpg" alt="lady in coat" class="gallery2"/>
+        <img src="/img/gallery-3.jpg" alt="lady in tshirt" class="gallery3"/>
+        <img src="/img/gallery-4.jpg" alt="lady in a jacket" class="gallery4"/>
+      </div>
+      <section class="contact">
+        <div class="form-wrapper">
+          <h2>
+            Get in <br/>
+            <span> touch.</span>
+          </h2>
+          <form action="POST">
+            <label for="email">Your Email: </label>
+            <input type="email" id="email required">
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <img src="/img/contact-image.jpg" alt="elena-joy"/>
+      </section>
+</main>
+<footer>
+  <h4>Josh Starmer Q-Tech&copy; 2020</h4>
+  <ul>
+    <li><a href="#"><img src="/img/youtube-symbol 1.svg" alt=" youtube-social"></a></li>
+    <li><a href="#"><img src="/img/twitter 1.svg" alt="Twitter"></a></li>
+    <li><a href="#"><img src="/img/instagram 1.svg" alt="Instagram"></a></li>
+  </ul>
+</footer>
 </body>
 </html>
